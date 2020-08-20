@@ -1,0 +1,23 @@
+table .id{width: 10%;}
+table .username{width: 10%}
+table .sex{width: 10%}
+table.lick-name{width: 10%}
+table.email{width: 10%}
+table.phone{width: 10%}
+table.role{width: 20%}
+table.operation{width: 20%}
+
+table th{
+    height: 20px;
+}
+.panel-default{
+    width: 95%;
+}
+img {
+    width: 100%;
+}
+
+table  button{
+    margin-right: 4px;
+    font-size: 20px;
+}

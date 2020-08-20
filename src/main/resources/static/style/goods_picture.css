@@ -1,0 +1,29 @@
+.panel-default{
+    width: 95%;
+}
+#footer{text-align: center}
+textarea{
+    height:500px;
+    resize:none;
+    border:none;
+
+}
+
+#a{
+    width: 90%;
+    margin:auto;
+
+}
+#b{
+    width: 90%;
+    margin-top: 10px;
+}
+#c{
+    width: 90%;
+    margin-top: 10px;
+}
+
+img {
+    height: 100%;
+    width: 100%;
+}

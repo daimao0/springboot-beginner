@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>进货管理</title>
+
+    <link rel="stylesheet" href="/style/bootstrap.css">
+    <link rel="stylesheet" href="/style/stock.css">
+    <script src="/jquery321/jquery-3.2.1.min.js"></script>
+    <script src="/script/user_add.js"></script>
+</head>
+<body>
+<div class="col-md-12">
+    <div class="panel-default">
+        <div class="panel-heading">
+            <span class="glyphicon glyphicon-apple"></span>添加用户
+        </div>
+    </div>
+</div>
+
+<form id="insert-user-from" action="javascript:">
+<div class="panel-body">
+    <div class="col">
+        <h3>基本信息</h3>
+        <div class="input-group">
+            <span class="input-group-addon">用户账户</span>
+            <input name="username" type="text" class="form-control" placeholder="请输入用户名"
+                   aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon">用户密码</span>
+            <input name="password"type="text" class="form-control" placeholder="请输入密码" aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon">用户昵称</span>
+            <input name="nickname"type="text" class="form-control" placeholder="请输入用户昵称" aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon">用户手机</span>
+            <input name="phone" type="text" class="form-control" placeholder="请输入手机号" aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon">用户邮箱</span>
+            <input name="email" type="text" class="form-control" placeholder="请输入邮箱" aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group">
+            <span class="input-group-addon">用户等级</span>
+            <select id="role-select" class="form-control">
+                <option name="role" value="vip1">vip1</option>
+                <option name="role" value="vip2">vip2</option>
+                <option name="role" value="vip3">vip3</option>
+                <option name="role" value="vip4">vip4</option>
+                <option name="role" value="vip5">vip5</option>
+            </select>
+        </div>
+
+    </div>
+
+</div>
+
+<div class="panel-footer">
+    <div class="footer">
+        <button type="reset" class="btn btn-danger" id="resetIpt">重置</button>
+        <button type="submit" class="btn btn-info" id="login-but" onclick="insertUserFrom()">提交</button>
+    </div>
+</div>
+</form>
+</body>
+</html>

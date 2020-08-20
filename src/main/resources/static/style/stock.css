@@ -1,0 +1,11 @@
+.info{
+    height: 250px;
+}
+.footer{
+    text-align: right;
+}
+fieldset {margin-bottom: 20px;}
+.panel-footer {text-align: right;}
+textarea {resize: none;}
+#img_preview {width: 100%;height: 100%;}
+.well {margin: 5px 100px;}
