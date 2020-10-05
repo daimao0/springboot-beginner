@@ -1,7 +1,7 @@
 
 spring:
   datasource:
-    url: jdbc:mysql://localhost:3306/learn_db?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://60.205.247.46:3306/learn_db?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
     username: root
     password: 123456
 
@@ -11,9 +11,9 @@ mybatis-plus:
 ??? db-config:
 ????? id-type: auto
 ????? field-strategy: not_empty
-  ????? #ÍÕ·åÏÂ»®Ïß×ª»»
+  ????? #ï¿½Õ·ï¿½ï¿½Â»ï¿½ï¿½ï¿½×ªï¿½ï¿½
 ????? column-underline: true
-  ????? #Âß¼­É¾³ýÅäÖÃ
+  ????? #ï¿½ß¼ï¿½É¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
 ????? logic-delete-value: 0
 ????? logic-not-delete-value: 1
 ????? db-type: mysql
